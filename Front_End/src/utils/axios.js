@@ -1,7 +1,5 @@
 import axios from "axios";
 
-// 본인이 배포해서 운영중인 express가 존재하는 aws주소:8080
-//const DOMAIN = "http://3.35.19.198:8080";
 const DOMAIN = "http://13.124.234.249:8081";
 const request = axios.create({
   baseURL: `${DOMAIN}/api`
